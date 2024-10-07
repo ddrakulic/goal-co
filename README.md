@@ -23,6 +23,22 @@ Fine-tuning (supervised and unsupervised) is possible on eight new problems:
 * the Open-Shop Schedulling Problem (OSSP)
 
 
+## Paper
+See [GOAL: A Generalist Combinatorial Optimization Agent Learning](https://arxiv.org/abs/2406.15079) for the paper associated with this codebase.
+If you find this code useful, please cite our paper as: 
+
+ ``` 
+@article{
+    drakulic2024goal,
+    title={GOAL: A Generalist Combinatorial Optimization Agent Learning},
+    author={Darko Drakulic and Sofia Michel and Jean-Marc Andreoli},
+    journal = {arXiv:2406.15079 [(cs.LG)]},,
+    year={2024},
+    url={https://arxiv.org/abs/2406.15079},
+}
+``` 
+
+
 ## Run training on set of problems
 
 ```

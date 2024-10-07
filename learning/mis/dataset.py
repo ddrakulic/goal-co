@@ -1,3 +1,8 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import torch

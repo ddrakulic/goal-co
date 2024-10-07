@@ -1,6 +1,10 @@
-import copy
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 import os
-import random
 import time
 import torch
 from torch import nn

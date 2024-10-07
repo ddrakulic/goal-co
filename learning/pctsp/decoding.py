@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 from dataclasses import dataclass
 import numpy as np
 import torch
@@ -9,10 +15,6 @@ from utils.data_manipulation import prepare_routing_data
 
 @dataclass
 class PCTSPSubProblem:
-    """
-    In decoding, we successively apply model on progressively smaller sub-problems.
-    In each sub-problem, we keep track of the indices of each node in the original full-problem.
-    """
     problem_name: str
     dist_matrices: Tensor
     node_prizes: Tensor

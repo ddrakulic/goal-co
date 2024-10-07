@@ -1,3 +1,10 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
+
 import argparse
 from args import add_common_args, add_common_training_args, add_common_self_supervised_tuning_args
 from learning.tuner import Tuner

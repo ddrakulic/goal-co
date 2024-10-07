@@ -1,18 +1,19 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 from dataclasses import dataclass
 import torch
 import numpy as np
 from torch import Tensor
 from torch.nn import Module
-
 from utils.data_manipulation import prepare_graph_data
 
 
 @dataclass
 class KPSubPb:
-    """
-    In decoding, we successively apply model on progressively smaller sub-problems.
-    In each sub-problem, we keep track of the indices of each node in the original full-problem.
-    """
     weights: Tensor
     values: Tensor
     remaining_capacities: Tensor

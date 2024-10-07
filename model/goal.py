@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 import numpy
 import numpy as np
 import torch
@@ -18,11 +24,8 @@ class GOAL(Module):
         self.is_finetuning = is_finetuning
 
         self.nb_layers = num_layers
-
         self.node_adapter = NodeAdapter(dim_emb, node_feature_low_dim, is_finetuning)
-
         self.edge_adapter = EdgeAdapter(dim_emb, activation_edge_adapter, edge_feature_low_dim, is_finetuning)
-
         self.output_adapter = OutputAdapter(dim_emb, is_finetuning)
 
         self.layers = ModuleList([Layer(dim_emb, dim_ff, num_heads, attention_clip_value, activation_ff)

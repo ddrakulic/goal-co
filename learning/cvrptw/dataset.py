@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 import torch
 from torch.utils.data import Dataset, DataLoader, DistributedSampler
 from scipy.spatial.distance import pdist, squareform

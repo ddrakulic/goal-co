@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 from argparse import Namespace
 from learning.tsp.dataset import load_dataset as load_tsp_dataset
 from learning.pctsp.dataset import load_dataset as load_pctsp_dataset

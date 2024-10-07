@@ -1,5 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
 from dataclasses import dataclass
-
 import numpy
 import torch
 from torch import Tensor

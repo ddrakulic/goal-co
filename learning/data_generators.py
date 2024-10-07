@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
 import networkx as nx

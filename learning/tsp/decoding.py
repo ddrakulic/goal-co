@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 from dataclasses import dataclass, asdict
 import copy
 import numpy as np
@@ -11,9 +17,6 @@ from utils.misc import compute_tour_lens
 
 @dataclass
 class TSPSubProblem:
-    """
-    In decoding, we successively apply model on progressively smaller sub-problems.
-    """
     problem_name: str
     dist_matrices: Tensor
     original_idxs: Tensor

@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 from learning.tsp.decoding import decode as decode_tsp_like
 from learning.pctsp.decoding import decode as decode_pctsp
 from learning.cvrp.decoding import decode as decode_cvrp_like

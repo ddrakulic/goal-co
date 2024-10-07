@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 import copy
 from dataclasses import dataclass, asdict
 import numpy as np
@@ -10,10 +16,6 @@ from utils.misc import compute_tour_lens
 
 @dataclass
 class VRPSubPb:
-    """
-    In decoding, we successively apply model on progressively smaller sub-problems.
-    In each sub-problem, we keep track of the indices of each node in the original full-problem.
-    """
     problem_name: str
     dist_matrices: Tensor
     node_demands: Tensor

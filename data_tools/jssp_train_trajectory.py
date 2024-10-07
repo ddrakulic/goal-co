@@ -1,8 +1,10 @@
-import os.path
-import numpy
-import argparse
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
 
-import numpy as np
+import numpy
 
 MACHINE_ID, JOB_ID, RANK, START_TIME, END_TIME = 0, 1, 2, 3, 4
 
@@ -22,7 +24,7 @@ def prepare_one_instance(num_machines, num_jobs, execution_times, task_on_machin
             numpy.tril(numpy.ones(num_machines), k=-1))
         job_task_matrix[machine_id * num_jobs:(machine_id + 1) * num_jobs,
         machine_id * num_jobs:(machine_id + 1) * num_jobs] = (
-            np.ones([num_machines, num_machines], dtype=np.int32))
+            numpy.ones([num_machines, num_machines], dtype=numpy.int32))
     for sub_problem_size in range(num_tasks):
 
         sol_idx_to_keep = sol_order_by_start_time[sub_problem_size:]

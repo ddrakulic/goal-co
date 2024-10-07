@@ -1,9 +1,12 @@
-import os
-import glob
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 
 import numpy
 import numpy as np
-import argparse
 from scipy.spatial.distance import pdist, squareform
 FACTOR = 10000.
 

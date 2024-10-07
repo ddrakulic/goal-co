@@ -1,5 +1,7 @@
 """
-    script for preparing orienteering problem dataset, reordering ground truth to 0, n, n-1, ... , 1, 0
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
 """
 import argparse
 import os

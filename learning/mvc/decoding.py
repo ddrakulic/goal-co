@@ -1,3 +1,9 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 from dataclasses import dataclass, asdict
 import torch
 import numpy as np
@@ -8,10 +14,6 @@ from utils.data_manipulation import prepare_graph_data
 
 @dataclass
 class MVCSubPb:
-    """
-    In decoding, we successively apply model on progressively smaller sub-problems.
-    In each sub-problem, we keep track of the indices of each node in the original full-problem.
-    """
     problem_name: str
     adj_matrices: Tensor
     original_idxs: Tensor

@@ -1,9 +1,13 @@
+"""
+GOAL
+Copyright (c) 2024-present NAVER Corp.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+"""
+
 import os
-import math
 import torch
 from model.goal import GOAL
-from utils.misc import set_seed, model_num_params, get_params_to_log
-from utils.optimizers import SophiaG
+from utils.misc import set_seed, get_params_to_log
 from utils.watcher import MetricsLogger
 
 
