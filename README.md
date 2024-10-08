@@ -68,7 +68,7 @@ For all test options type
 python3 test.py -h
 ```
 
-## Fine-tuning pretrained model
+## Fine-tuning the pretrained model
 
 ### Supervised
 ```
