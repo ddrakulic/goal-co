@@ -49,7 +49,7 @@ python3 train.py
   --test_datasets [list_of_test_datasets]
 ```
 
-For all trainable arguments
+For all training arguments
 ```
 python3 train.py -h
 ```
