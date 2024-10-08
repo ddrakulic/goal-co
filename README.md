@@ -49,7 +49,7 @@ python3 train.py
   --test_datasets [list_of_test_datasets]
 ```
 
-For all trainable arguments type
+For all trainable arguments
 ```
 python3 train.py -h
 ```
@@ -68,7 +68,7 @@ For all test options type
 python3 test.py -h
 ```
 
-## Finetuning multi-task model
+## Fine-tuning pretrained model
 
 ### Supervised
 ```
@@ -88,7 +88,7 @@ python3 finetune.py
 ```
 
 ## Data
-Test and fine-tuning data are provided in data/ directory.
+Test and fine-tuning data are provided in the ```data/``` directory.
 
-Pretrained models are provided in pretrained/ directory. 
+Pretrained models are provided in the ```pretrained/``` directory. 
 
