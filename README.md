@@ -63,7 +63,7 @@ python3 test.py
   --pretrained_model pretrained/multi.best
 ```
 
-For all test options type
+For all test options
 ```
 python3 test.py -h
 ```
